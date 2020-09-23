@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot");
+  src: url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.svg#SF Pro Display")
+      format("svg");
+}
+@media only screen and (min-width: 850px) {
+  .dig {
+    position: absolute;
+    width: 617px;
+    height: 172px;
+    left: 100px;
+    top: 164px;
+    font-size: 4em;
+    font-weight: 900;
+    color: #000;
+  }
+  .cre {
+    color: #333a4d;
+    position: absolute;
+    width: 649px;
+    height: 74px;
+    left: 100px;
+    top: 403px;
+    font-family: "SF Pro Display";
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    /* or 133% */
+  }
+  .prod {
+    display: none;
+  }
+  .btnn {
+    position: absolute;
+    width: 243px;
+    height: 84px;
+    left: 100px;
+    top: 576px;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #ff7f66;
+    border: none;
+    border-radius: 70px !important;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  .btnn:hover {
+    box-shadow: rgba(0, 0, 0, 0.239) 4px 4px 4px 4px;
+    background-color: whitesmoke;
+  }
+  .bigimg {
+    position: absolute;
+    width: 637px;
+    height: 633px;
+    left: 990px;
+    top: 200.17px;
+  }
+  .nav-link {
+    color: #000 !important;
+  }
+  .nav-link:hover {
+    color: #ff7f66 !important;
+  }
+  .icon {
+    height: 57px;
+    width: 50px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .prod {
+    position: absolute;
+    width: 277px;
+    height: 36px;
+    left: 24px;
+    top: 350px;
+    font-size: 2em;
+ 
+    font-size: 2em;
+    font-weight: 600;
+    color: #000;
+  }
+
+  .dig {
+    display: none;
+  }
+  .cre {
+    position: absolute;
+    width: 321px;
+    height: 44px;
+    left: 7px;
+    top: 419px;
+
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    /* or 129% */
+
+    text-align: center;
+
+    color: #333a4d;
+  }
+  .btnn {
+    position: absolute;
+    width: 215px;
+    height: 50px;
+    left: 43px;
+    top: 494px;
+    
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #ff7f66;
+    border: none;
+    border-radius: 70px !important;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  .btnn:hover {
+    box-shadow: rgba(0, 0, 0, 0.239) 4px 4px 4px 4px;
+    background-color: whitesmoke;
+  }
+  .bigimg {
+    position: absolute;
+    width: 300px;
+    height: 294px;
+    left: 38px;
+    top: 143px;
+  }
+  .nav-link {
+    color: #000 !important;
+  }
+  .nav-link:hover {
+    color: #ff7f66 !important;
+  }
+  .icon {
+    height: 57px;
+    width: 50px;
+  }
+}
+
+.navbar-toggler{
+    color: #000;
+}
